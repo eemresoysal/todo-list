@@ -1,0 +1,60 @@
+.btn {
+    width: 100px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+body {
+
+    background: rgb(120, 226, 191);
+    background: linear-gradient(90deg, rgba(120, 226, 191, 1) 25%, rgba(94, 181, 186, 0.9108018207282913) 57%, rgba(0, 146, 255, 0.8435749299719888) 100%);
+}
+
+.container {
+    /* margin: 1rem; */
+    /* border-radius: 1rem; */
+    width: 70vh;
+    height: 100vh;
+    position: relative;
+    /* background-color: rgba(231, 231, 231, 0.08); */
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.tasks {
+    /* border: 1px solid red; */
+    width: 60%;
+    position: absolute;
+    top: 15rem;
+    left: 16rem;
+    font-size: 1.5rem;
+
+}
+
+.task {
+    /* border-bottom: 2px solid olive; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#formBox {
+    width: 700px;
+}
+
+.tasks .fa-regular {
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+    cursor: pointer;
+
+}
+
+.d-none {
+    display: none;
+}
